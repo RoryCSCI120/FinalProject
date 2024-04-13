@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Buildings</title>
+                <geoform>vector digital data</geoform>
+                <onlink>https://gis.worcesterma.gov/worcags/rest/services/OpenData/Structures/MapServer/2</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Polygon feature class representing building footprints in Worcester, MA. Original features digitized from 1998 orthoimagery project and updated from 2003 imagery. Further updates from City of Worcester information.</abstract>
+            <purpose>Building footprints in Worcester, MA.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-71.883694</westbc>
+                <eastbc>-71.733244</eastbc>
+                <northbc>42.341376</northbc>
+                <southbc>42.209671</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Structures</themekey>
+                <themekey>Building</themekey>
+                <themekey>Worcester</themekey>
+                <themekey>Massachusetts</themekey>
+                <themekey>United States</themekey>
+                <themekey>department of innovation and technology</themekey>
+            </theme>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>Considerable effort has been made to ensure the accuracy, correctness and timeliness of data presented; however, this information is only as accurate as its sources and may not reflect the most current information. The City of Worcester, MA, assumes no liability for any errors, omissions or inaccuracies and makes no warranty, representation or guaranty of any kind, express or implied, as to the content or for any decisions made or actions taken or not taken by the user based upon any information provided with the data.
+The data can be freely distributed as long as the metadata entry is not modified or deleted. Any data derived from the data must acknowledge the City of Worcester, MA, in its metadata.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Department of Innovation &amp; Technology, GIS Section, City of Worcester, MA</cntorg>
+                </cntorgp>
+                <cntemail>GIS@worcesterma.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Department of Innovation &amp; Technology, GIS Section, City of Worcester, MA</datacred>
+        <native>ESRI ArcGIS 10.0.3.3600</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>73088</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Buildings</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TYPE</attrlabl>
+                <attrdef>building type</attrdef>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>DECK</edomv>
+                                                						
+                        
+                        <edomvd>DECK</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>OUTBUILDING</edomv>
+                                                						
+                        
+                        <edomvd>OUTBUILDING</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>BLDG</edomv>
+                                                						
+                        
+                        <edomvd>BLDG</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>GARAGE</edomv>
+                                                						
+                        
+                        <edomvd>GARAGE</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>PATIO</edomv>
+                                                						
+                        
+                        <edomvd>PATIO</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>CONSTRUCTION</edomv>
+                                                						
+                        
+                        <edomvd>CONSTRUCTION</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>OTHER</edomv>
+                                                						
+                        
+                        <edomvd>OTHER</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NONE</edomv>
+                                                						
+                        
+                        <edomvd>NONE</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>TANK</edomv>
+                                                						
+                        
+                        <edomvd>TANK</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>SMOKESTACK</edomv>
+                                                						
+                        
+                        <edomvd>SMOKESTACK</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>MOBILE</edomv>
+                                                						
+                        
+                        <edomvd>MOBILE</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BUILD_SRC</attrlabl>
+                <attrdef>source of building information</attrdef>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>1</edomv>
+                                                						
+                        
+                        <edomvd>Unknown</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>2</edomv>
+                                                						
+                        
+                        <edomvd>MassGIS 2005 Flyover</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>3</edomv>
+                                                						
+                        
+                        <edomvd>Abandoned Building Edits from 2006 back</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>4</edomv>
+                                                						
+                        
+                        <edomvd>WEB_RESIDENTIAL_07 table YEAR_BUILT field</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>5</edomv>
+                                                						
+                        
+                        <edomvd>CCURRENT_RAW table FIELD_5 field 070204</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>6</edomv>
+                                                						
+                        
+                        <edomvd>Assessor's Office</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>7</edomv>
+                                                						
+                        
+                        <edomvd>gatewayparkworcester CenterMap_Edited.pdf 071005</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>8</edomv>
+                                                						
+                        
+                        <edomvd>Registered plan</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>9</edomv>
+                                                						
+                        
+                        <edomvd>Field</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>10</edomv>
+                                                						
+                        
+                        <edomvd>USGS - 2009 Flyover</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>11</edomv>
+                                                						
+                        
+                        <edomvd>Assessing ChangeFindR Project 2010</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>12</edomv>
+                                                						
+                        
+                        <edomvd>As Built</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MBL</attrlabl>
+                <attrdef>assessor's property identifier - map-block-lot</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STREET_ID</attrlabl>
+                <attrdef>unique ID for street name, joins to street name table</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STREET_NUM</attrlabl>
+                <attrdef>building address</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>STREET_TEXT</attrlabl>
+                <attrdef>full name of street per street directory maintained by the Department of Public Works &amp; Parks (DPW&amp;P) of the City of Worcester, MA.</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.area</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.len</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20160318</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
