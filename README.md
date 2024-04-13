@@ -38,7 +38,7 @@ Figure 3 - Worcester Historic Redlining Districts with background of January 202
 
 Raster Layers:
 
-
+https://search.earthdata.nasa.gov/search?portal=obdaac - Land Surface Temperature
 
 
 
