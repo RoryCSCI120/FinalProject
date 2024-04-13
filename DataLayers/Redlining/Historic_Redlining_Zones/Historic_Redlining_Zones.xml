@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <pubdate>20221201</pubdate>
+                <title>Historic Redlining Zones</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>HOLC, in consultation with local real estate professionals and local policymakers, categorized neighborhoods in hundreds of cities in the United States into four types: Best (A), Still Desirable (B), Definitely Declining (C), and Hazardous (D). So-called “hazardous” zones were colored red on these maps. These zones were then used to approve or deny credit-lending and mortgage-backing by banks and the Federal Housing Administration. The descriptions provided by HOLC in their reports rely heavily on race and ethnicity as critical elements in assigning these grades. According to the University of Richmond's Mapping Inequality project, “Arguably the HOLC agents in the other two hundred-plus cities graded through this program adopted a consistently white, elite standpoint or perspective. HOLC assumed and insisted that the residency of African-Americans and immigrants, as well as working-class whites, compromised the values of homes and the security of mortgages” (Mapping Inequality). HOLC’s classifications were one contributory factor in underinvestment in a neighborhood, and generally, although not always, closed off many, especially people of color, from the credit necessary to purchase their own homes.The 15 Worcester neighborhood zones included on the map are ordered from Zone 1 (categorized as &amp;quot;Best&amp;quot;) to Zone 15, with the highest numbered zones included in the least desirable &amp;quot;Hazardous&amp;quot; category. The exact descriptions used by HOLC to classify the neighborhoods in 1936 are included, and therefore may contain some disturbing language. Many scholars and institutions have focused their efforts on tracking the effects the 1930s redlining maps still have today. The Mapping Inequality project by the University of Richmond has collected and analyzed a comprehensive set of redlining maps for more than 200 cities in the U.S. One of their conclusions is that, for most cities, there are striking and persistent geographic similarities between redlined zones and currently vulnerable areas even after eighty years. See the Mapping Inequality website for more information (https://dsl.richmond.edu/panorama/redlining).This digitized version prepared by the Worcester Regional Research Bureau was based on a scanned copy from the National Archives, obtained thanks to Dr. Robert Nelson, the Digital Scholarship Lab, and the rest of his team at Mapping Inequality at the University of Richmond. Dr. Nelson worked with The Research Bureau directly to track it down in the Archives.</abstract>
+            <purpose>This dataset shows zones included on the 1936 Federal Home Owners’ Loan Corporation (HOLC) map of the City of Worcester, digitized from a scanned copy of the original 1936 map. The zones included on HOLC maps were used to help banks and mortgage insurers decide to approve or decline credit. HOLC maps facilitated "redlining", the practice of denying fair access to credit based largely on the race of the residents of a neighborhood. This item is included as part of the historical record and may contain language which is outdated, biased, or offensive. It may be harmful or difficult to view. </purpose>
+        </descript>
+        <status>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-71.8844051419133</westbc>
+                <eastbc>-71.7375044221642</eastbc>
+                <northbc>42.3412961421644</northbc>
+                <southbc>42.2097831972077</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Historic, Redlining, Housing, Equity</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+                <themekey>society</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Worcester, Massachusetts, United States</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Please include the following citation when using: Digital map developed by Worcester Regional Research Bureau from the University of Richmond’s photo.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Worcester Regional Research Bureau</cntorg>
+                    <cntper>Paul Matthews</cntper>
+                </cntorgp>
+                <cntpos>Executive Director and CEO</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>390 Main St, Suite 208</address>
+                    <city>Worcester</city>
+                    <state>MA</state>
+                    <postal>01608</postal>
+                </cntaddr>
+                <cntemail>pmatthews@wrrb.org</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Worcester Regional Research Bureau</cntorg>
+                    <cntper>Paul Matthews</cntper>
+                </cntorgp>
+                <cntpos>Executive Director and CEO</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>390 Main St, Suite 208</address>
+                    <city>Worcester</city>
+                    <state>MA</state>
+                    <postal>01608</postal>
+                </cntaddr>
+                <cntemail>pmatthews@wrrb.org</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Digital map developed by Worcester Regional Research Bureau from the University of Richmond’s photo.</datacred>
+        <native>Esri ArcGIS 12.9.4.32739</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Historic_Redlining_Zones</enttypl>
+                <enttypd>Historic redlining zones</enttypd>
+                <enttypds>Worcester Regional Research Bureau (WRRB)</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                                                                
+          
+                    
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                                                              
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                                                                
+          
+                    
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                                                              
+        
+                
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ZoneNumber</attrlabl>
+                <attrdef>Zone indicating desirability of neighborhood, with 1 being the most desirable and 15 being the least desirable.</attrdef>
+                <attrdefs>WRRB</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ZoneCat</attrlabl>
+                <attrdef>Neighborhoods are categorized into 1 of 5 categories:
+Best
+Still Desirable
+Definitely Declining
+Hazardous
+Business</attrdef>
+                <attrdefs>WRRB</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ZoneColor</attrlabl>
+                <attrdef>Colors correspond to the ZoneCat category:
+Green: Best
+Blue: Still Desirable
+Yellow: Definitely Declining
+Red: Hazardous
+Gray: Business</attrdef>
+                <attrdefs>WRRB</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ZoneDesc</attrlabl>
+                <attrdef>The exact descriptions used by HOLC to classify each of the 15 Worcester neighborhoods in 1936 are included, and therefore may contain some disturbing language. </attrdef>
+                <attrdefs>WRRB</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ZoneNumeri</attrlabl>
+                <attrdef>Zone indicating desirability of neighborhood, with 1 being the most desirable and 15 being the least desirable.</attrdef>
+                <attrdefs>WRRB</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STArea()</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STLength()</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20230320</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Worcester Regional Research Bureau</cntorg>
+                    <cntper>Paul Matthews</cntper>
+                </cntorgp>
+                <cntpos>Executive Director and CEO</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>390 Main St, Suite 208</address>
+                    <city>Worcester</city>
+                    <state>MA</state>
+                    <postal>01608</postal>
+                </cntaddr>
+                <cntemail>pmatthews@wrrb.org</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
