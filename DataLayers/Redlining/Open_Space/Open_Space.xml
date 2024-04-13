@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20140418</pubdate>
+                <title>Open_Space_Parcels</title>
+                <geoform>vector digital data</geoform>
+                <onlink>https://gis.worcesterma.gov/worcags/rest/services/OpenData/Environment/MapServer/3</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Data were developed to describe the available open space resources within the City of Worcester, MA, for the purposes of updating the City's existing 2005 Open Space Master Plan. Work performed was consistent with the Commonwealth of Massachusetts, Executive Office of Environmental Affairs 'Open Space Planner's Workbook'. Data are intended to provide support for needs assessment, community preferences, regulatory compliance, enhanced living, budgetary concerns, zoning, and administration.Download Error: If you are unable to download the data using the &amp;quot;Generate new download with latest data&amp;quot; option, please utilize the &amp;quot;Download file previously generated&amp;quot; option.</abstract>
+            <purpose>Open space resources within the City of Worcester, MA.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20140418</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>City of Worcester, Massachusetts and abutting lands</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-71.888447</westbc>
+                <eastbc>-71.750846</eastbc>
+                <northbc>42.332952</northbc>
+                <southbc>42.215081</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Open Space</themekey>
+                <themekey>Master Plan</themekey>
+                <themekey>City of Worcester</themekey>
+            </theme>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>Considerable effort has been made to ensure the accuracy, correctness and timeliness of data presented; however, this information is only as accurate as its sources and may not reflect the most current information. The City of Worcester, MA, assumes no liability for any errors, omissions or inaccuracies and makes no warranty, representation or guaranty of any kind, express or implied, as to the content or for any decisions made or actions taken or not taken by the user based upon any information provided with the data.
+The data can be freely distributed as long as the metadata entry is not modified or deleted. Any data derived from the data must acknowledge the City of Worcester, MA, in its metadata.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Technical Services, City of Worcester, MA</cntorg>
+                </cntorgp>
+                <cntemail>gis@worcesterma.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Weston &amp; Sampson Engineers Inc., Peabody, MA; Greater Worcester Land Trust; City of Worcester, MA; Massachusetts Audubon Society</datacred>
+        <native>Esri ArcGIS 10.2.1.3497</native>
+    </idinfo>
+    <dataqual>
+        <logic>Parcel information regarding location and ownership has been evaluated by comparison to available assessor's data. Attribute data regarding conservation restrictions were provided by the Greater Worcester Land Trust.</logic>
+        <complete>Parcel information regarding location and ownership has been evaluated by comparison to available assessor's data. Attribute data regarding conservation restrictions were provided by the Greater Worcester Land Trust.</complete>
+        <lineage>
+            <procstep>
+                <procdesc>Data compiled from sources including City of Worcester GIS, City of Worcester Planning, City of Worcester Assessors, City of Worcester Conservation Commission, Greater Worcester Land Trust, Massachusetts Audubon Society, Boy Scouts of America, and City of Auburn Conservation Commision. Where conflict between data sources arose interaction between the sources was constructed to resolve. In cases where no resolution was forth coming favor was given to the City assessors sources for the purposes of deciding and displaying classifications.</procdesc>
+                <procdate>20140401</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Weston &amp; Sampson Engineers, Inc.</cntorg>
+                            <cntper>Daniel Shinnick</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <city>Peabody</city>
+                            <state>MA</state>
+                            <postal>01960</postal>
+                        </cntaddr>
+                        <cntvoice>(978)532-1900</cntvoice>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>412</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Open_Space_Parcels</enttypl>
+                <enttypd>Open Space Parcels</enttypd>
+                <enttypds>Parcels Identified as Open Space Resources</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RODYEAR</attrlabl>
+                <attrdef>Registry of Deeds Year</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Year appearing on the parcel deed</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RODBOOK</attrlabl>
+                <attrdef>Registry of Deeds Book</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Book in which the Deed can be found</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RODPAGE</attrlabl>
+                <attrdef>Registry of Deeds Page</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Page of the book in which the deed to the pacel can be found</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HOUSE_NO</attrlabl>
+                <attrdef>Address Number</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Address of parcel if available</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STREET_PREFIX</attrlabl>
+                <attrdef>Address number modifier</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Address modifier (Rear, A, B, first floor, etc..)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STREET</attrlabl>
+                <attrdef>Street Name Proper</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Street name proper</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>District</attrlabl>
+                <attrdef>Council District</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <rdom>
+                                                						
+                        
+                        <rdommin>1</rdommin>
+                                                						
+                        
+                        <rdommax>5</rdommax>
+                                                					
+                    
+                    </rdom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PARCEL_NAME</attrlabl>
+                <attrdef>Common Name of Parcel</attrdef>
+                <attrdefs>City of Worcester; Greater Worcester Land Trust</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Common name of parcel</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MBL</attrlabl>
+                <attrdef>Map Block and Lot Number</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Assessor's Parcel Identifier</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MANAGEMENT</attrlabl>
+                <attrdef>Current Managing Entity</attrdef>
+                <attrdefs>City of Worcester, Greater Worcester Land Trust</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Managing entity</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SOURCE</attrlabl>
+                <attrdef>Chief contributing data source</attrdef>
+                <attrdefs>Weston &amp; Sampson</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Contributing data source</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>City</edomv>
+                                                						
+                        
+                        <edomvd>City GIS Department</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Rec</edomv>
+                                                						
+                        
+                        <edomvd>Rec UGROW Info for DPW table</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>GWLT</edomv>
+                                                						
+                        
+                        <edomvd>Greater Worcester Land Trust</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>DPRS</edomv>
+                                                						
+                        
+                        <edomvd>Worcester Dept. of Planning and Regulatory Services</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Parks</edomv>
+                                                						
+                        
+                        <edomvd>Worcester Parks Department</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ASSESSORS_OWNER</attrlabl>
+                <attrdef>Ownership as described in the Assessor's database</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Owner appearing in the City's Assessor's Database</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OWNERSHIP_CLASS</attrlabl>
+                <attrdef>Summary of Ownership for Display</attrdef>
+                <attrdefs>Weston &amp; Sampson</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Consolidated class for display</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Parks</edomv>
+                                                						
+                        
+                        <edomvd>City of Worcester Parks Department</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>wConComm</edomv>
+                                                						
+                        
+                        <edomvd>City of Worcester Conservation Commission</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>MassAud</edomv>
+                                                						
+                        
+                        <edomvd>Massachusetts Audubon Society</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Schools</edomv>
+                                                						
+                        
+                        <edomvd>City of Worcester School Department</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>GWLT</edomv>
+                                                						
+                        
+                        <edomvd>Greater Worcester Land Trust</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Private</edomv>
+                                                						
+                        
+                        <edomvd>Private Owner</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>City</edomv>
+                                                						
+                        
+                        <edomvd>City of Worcester</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>State</edomv>
+                                                						
+                        
+                        <edomvd>State Owned</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>MassPort</edomv>
+                                                						
+                        
+                        <edomvd>Massachusetts Port Authority</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>aConComm</edomv>
+                                                						
+                        
+                        <edomvd>Town of Auburn Conservation Commission</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Cemeteries</edomv>
+                                                						
+                        
+                        <edomvd>Cemeteries Public &amp; Private</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CONSERVATION_RESTRICTION</attrlabl>
+                <attrdef>Conservation Restriction indicator</attrdef>
+                <attrdefs>Greater Worcester Land Trust</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Indicates the presence and holder of conservation restrictions on the property</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>MAAS</edomv>
+                                                						
+                        
+                        <edomvd>Massachusetts Audubon Society</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>GWLT</edomv>
+                                                						
+                        
+                        <edomvd>Greater Worcester Land Trust</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>GHPC</edomv>
+                                                						
+                        
+                        <edomvd>Green Hill Park Coalition</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>None</edomv>
+                                                						
+                        
+                        <edomvd>No Conservation Restriction</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>WORC</edomv>
+                                                						
+                        
+                        <edomvd>City of Worcester Parks</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Holden Con Com</edomv>
+                                                						
+                        
+                        <edomvd>Town of Holden Conservation Commission</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Worcester Con Com</edomv>
+                                                						
+                        
+                        <edomvd>Worcester Conservation Commission</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Multiple</edomv>
+                                                						
+                        
+                        <edomvd>Multiple CR Holders - refer to documents</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GARDEN</attrlabl>
+                <attrdef>Garden indicator</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Indicates presence and ownership of community garden</udom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>School</edomv>
+                                                						
+                        
+                        <edomvd>School Garden</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Community</edomv>
+                                                						
+                        
+                        <edomvd>Community Garden</edomvd>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ACREAGE</attrlabl>
+                <attrdef>Size of open space resource in Acres</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Size of open space resource in Acres</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COMMUNITY_GARDEN_ID</attrlabl>
+                <attrdef>Community Garden unique identifier</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Community Garden unique identifier</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>X_COORD</attrlabl>
+                <attrdef>Parcel centroid x-coordinate</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Parcel centroid x-coordinate</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Y_COORD</attrlabl>
+                <attrdef>Parcel centroid y-coordinate</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Parcel centroid y-coordinate</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OSRP_ID</attrlabl>
+                <attrdef>Unique ID for each open space parcel</attrdef>
+                <attrdefs>City of Worcester</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique ID for each open space parcel.For new parcels set equal to OBJECTID</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CR_Book</attrlabl>
+                <attrdef>Conservation Restriction Book reference from Registry of Deeds</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CR_Page</attrlabl>
+                <attrdef>Conservation Restriction Page reference from Registry of Deeds</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Shape.area</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.len</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20140418</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Weston &amp; Sampson Engineers, Inc...</cntorg>
+                    <cntper>Daniel Shinnick</cntper>
+                </cntorgp>
+                <cntpos>GIS Manager</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <city>Peabody</city>
+                    <state>MA</state>
+                    <postal>01960</postal>
+                </cntaddr>
+                <cntvoice>(978)532-1900</cntvoice>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
