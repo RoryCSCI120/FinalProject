@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Lakes Ponds Rivers</title>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Polygon feature class representing lakes, ponds, and rivers in Worcester, MA. Original features digitized from 1998 orthoimagery project and updated from 2003 imagery. Further updates from City of Worcester information.Download Error: If you are unable to download the data using the &amp;quot;Generate new download with latest data&amp;quot; option, please utilize the &amp;quot;Download file previously generated&amp;quot; option.</abstract>
+            <purpose>Lakes, ponds, and rivers in Worcester, Massachusetts.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-71.8827482991259</westbc>
+                <eastbc>-71.7311291513118</eastbc>
+                <northbc>42.3410484816092</northbc>
+                <southbc>42.2112990830556</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Worcester</themekey>
+                <themekey>Massachusetts</themekey>
+                <themekey>United States</themekey>
+                <themekey>Water Feature</themekey>
+                <themekey>department of innovation and technology</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Considerable effort has been made to ensure the accuracy, correctness and timeliness of data presented; however, this information is only as accurate as its sources and may not reflect the most current information. The City of Worcester, MA, assumes no liability for any errors, omissions or inaccuracies and makes no warranty, representation or guaranty of any kind, express or implied, as to the content or for any decisions made or actions taken or not taken by the user based upon any information provided with the data. The data can be freely distributed as long as the metadata entry is not modified or deleted. Any data derived from the data must acknowledge the City of Worcester, MA, in its metadata.</useconst>
+        <datacred>Department of Innovation &amp; Technology, GIS Section, City of Worcester, MA</datacred>
+    </idinfo>
+    <metainfo>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
