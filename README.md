@@ -3,7 +3,7 @@
 Rory Dickinson
 
 ### Introduction
-Urban Heat Islands are a growing issue in many cities across the United States. In most studies, factors such as income and race used to examine inequalities in exposure to such harmful envrionemntal factors that heat can bring. Many studies also often pair these sorts of factors with historical data related to the practice of redlining, where certain neighborhoods were deemed poor for investment. Neighborhoods which were once redlined tend to also be the neighborhoods today with the highest temperatures. 
+Urban Heat Islands are a growing issue in many cities across the United States. In most studies, factors such as income and race have been used to examine inequalities in exposure to such harmful envrionemntal factors like heat. Many studies also often pair these sorts of factors with historical data related to the practice of redlining, where certain neighborhoods were deemed poor for investment. Neighborhoods which were once redlined tend to also be the neighborhoods today with the highest temperatures. 
 The main objectives of this project are to: determine whether there is a correlation between concentrations of poulations with low English ability and the factors which contribute to the urban heat island effect.
 
 ### Data
