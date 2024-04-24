@@ -8,7 +8,7 @@ The main objectives of this project are to: determine whether there is a correla
 
 ### Data
 
-This study will utilize a combination of vector and raster data for the city of Worcester, Massachusetts.
+This study utilizes a combination of vector and raster data for the city of Worcester, Massachusetts.
 
 #### Sources:
 Vector Layers:
