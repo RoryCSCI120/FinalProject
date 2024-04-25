@@ -55,6 +55,9 @@ Figure 5: Winter NDVI with Worcester Boundary with Worcester Boundary
 Figure 6: Summer NDVI with Worcester Boundary with Worcester Boundary
 ![ndvi_july](https://github.com/RoryCSCI120/FinalProject/assets/131007848/3fd7cff2-f67b-4c6a-b2ab-61c4d2d78d24)
 
+#### Data Preprocessing: 
+All data layers were brough into QGIS and reprojected to EPSG: 4326 - WGS 84. When brought into QGIS, the demographic data layers portraying language communites and English ability by census block, and median houshold income lost their English column titles. Consultation of the source data on ESRI's website had to be done to make sure the correct comuns were known. 
+
 
 
 
