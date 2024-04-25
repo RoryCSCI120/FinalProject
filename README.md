@@ -56,7 +56,22 @@ Figure 6: Summer NDVI with Worcester Boundary with Worcester Boundary
 ![ndvi_july](https://github.com/RoryCSCI120/FinalProject/assets/131007848/3fd7cff2-f67b-4c6a-b2ab-61c4d2d78d24)
 
 #### Data Preprocessing: 
-All data layers were brough into QGIS and reprojected to EPSG: 4326 - WGS 84. When brought into QGIS, the demographic data layers portraying language communites and English ability by census block, and median houshold income lost their English column titles. Consultation of the source data on ESRI's website had to be done to make sure the correct comuns were known. 
+All data layers were brough into QGIS and reprojected to EPSG: 4326 - WGS 84. When brought into QGIS, the demographic data layers portraying language communites and English ability by census block, and median houshold income lost their English column titles. Consultation of the source data on ESRI's website had to be done to make sure the correct columns were known. After this, attribute table of these two ayers were cut down to only the necessary columns. 
+These being:![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/bbd53c49-e1f8-4a37-ad6e-524fcc1f8bac)
+
+For the languages data by census blocks, the necessary columns kept are as follows: ![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/819c7991-b781-487d-b8f2-56a6ed241e6d)
+
+The geom column was also kept. The columns with strings of characters as names are, population of census block, population with low English ability, and percent of said population with low English ability. 
+
+The raster layers when brought into QGIS, were clipped by a mask layer. The mask used was the Worcester city boundary polygon. This was done to contain the study area firther and make the rather large layers more manageable.
+
+Data Normalization
+
+All of the other shapefiles did not require normalization, though some columns were still removed with the ALTER TABLE command. The buildings shapefile did require normalization, though this was solved with the ALTER TABLE. The buildings shapefile can be ommitted from the analysis id necessary though as it is not integral to the main objective.
+
+The raster data is already normalized as the only contain two columns with not multiple variables.
+
+
 
 
 
