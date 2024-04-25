@@ -42,8 +42,7 @@ https://search.earthdata.nasa.gov/search?portal=obdaac - Land Surface Temperatur
 
 https://browser.dataspace.copernicus.eu/ - NDVI: NDVI was calculate by taking the 8th and 4th bands of Sentinel 2 images and running them through the NDVI formula using the raster calculator. All pixels valued over 0 are considered vegetation.
 
-[Rasters.pdf](https://github.com/RoryCSCI120/FinalProject/files/15108496/Rasters.pdf)
-
+![Rasters-1](https://github.com/RoryCSCI120/FinalProject/assets/131007848/90a53d3d-2b0a-4d34-9031-3e3cc7f08d61)
 
 #### Data Preprocessing: 
 All data layers were brough into QGIS and reprojected to EPSG: 4326 - WGS 84. When brought into QGIS, the demographic data layers portraying language communites and English ability by census block, and median houshold income lost their English column titles. Consultation of the source data on ESRI's website had to be done to make sure the correct columns were known. After this, attribute table of these two ayers were cut down to only the necessary columns. 
@@ -60,6 +59,9 @@ Data Normalization
 All of the other shapefiles did not require normalization, though some columns were still removed with the ALTER TABLE command. The buildings shapefile did require normalization, though this was solved with the ALTER TABLE. The buildings shapefile can be ommitted from the analysis id necessary though as it is not integral to the main objective.
 
 The raster data is already normalized as the only contain two columns with not multiple variables.
+
+#### Methods
+To load in the data to a database, the following sql scripts must be run in postgres: low_english.sql, median_income.sql, ndvi_january_worcester.sql, ndvi_july_worcester.sql, temp_january_worcester.sql, temp_july_worcester.sql, buildings_sql, water_sql and redlining_zones.sql. These files are contained within the sql folder.
 
 
 
