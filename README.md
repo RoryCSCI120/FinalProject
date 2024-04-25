@@ -40,20 +40,10 @@ Raster Layers:
 
 https://search.earthdata.nasa.gov/search?portal=obdaac - Land Surface Temperature
 
-Figure 3: Winter Surface Temperatures with Worcester Boundary
-![winter_temp](https://github.com/RoryCSCI120/FinalProject/assets/131007848/0cb4a709-96aa-4aee-b988-8ed734d3161d)
-
-Figure 4: Summer Surface Temperatures with Worcester Boundary
-![July_temp](https://github.com/RoryCSCI120/FinalProject/assets/131007848/031bad30-7627-4df7-a07b-2538f5155e5d)
-
 https://browser.dataspace.copernicus.eu/ - NDVI: NDVI was calculate by taking the 8th and 4th bands of Sentinel 2 images and running them through the NDVI formula using the raster calculator. All pixels valued over 0 are considered vegetation.
 
-Figure 5: Winter NDVI with Worcester Boundary with Worcester Boundary
-![ndvi_january](https://github.com/RoryCSCI120/FinalProject/assets/131007848/d4833a93-a040-4ed0-a1d9-d6af96c93c2e)
+[Rasters.pdf](https://github.com/RoryCSCI120/FinalProject/files/15108496/Rasters.pdf)
 
-
-Figure 6: Summer NDVI with Worcester Boundary with Worcester Boundary
-![ndvi_july](https://github.com/RoryCSCI120/FinalProject/assets/131007848/3fd7cff2-f67b-4c6a-b2ab-61c4d2d78d24)
 
 #### Data Preprocessing: 
 All data layers were brough into QGIS and reprojected to EPSG: 4326 - WGS 84. When brought into QGIS, the demographic data layers portraying language communites and English ability by census block, and median houshold income lost their English column titles. Consultation of the source data on ESRI's website had to be done to make sure the correct columns were known. After this, attribute table of these two ayers were cut down to only the necessary columns. 
