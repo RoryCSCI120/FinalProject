@@ -60,7 +60,21 @@ All of the other shapefiles did not require normalization, though some columns w
 The raster data is already normalized as the only contain two columns with not multiple variables.
 
 #### Methods
-To load in the data to a database, the following sql scripts must be run in postgres: low_english.sql, median_income.sql, ndvi_january_worcester.sql, ndvi_july_worcester.sql, temp_january_worcester.sql, temp_july_worcester.sql, buildings_sql, water_sql and redlining_zones.sql. These files are contained within the sql folder.
+To load in the data to a database, the following sql scripts must be run in postgres: low_english.sql, median_income.sql, ndvi_january_worcester.sql, ndvi_july_worcester.sql, temp_january_worcester.sql, temp_july_worcester.sql, buildings_sql, water_sql and redlining_zones.sql. These files are contained within the sql folder. Example scripts below:
+
+"C:\Program Files\PostgreSQL\16\bin\raster2pgsql.exe" -s 4326 -I -C -M C:\Users\User\Desktop\Final_Project\NDVI_January_4326.vrt public.NDVI_January > NDVI_January.sql
+
+"C:\Program Files\PostgreSQL\16\bin\shp2pgsql.exe" -s 4326 -I C:\Users\User\Desktop\Final_Project\Open_Spaces\Open_Spaces.shp public.parks > parks.sql
+
+For the actual spatial querying, I utilized the the ST_Intersects function to determine the average temperatures and NDVI values in each census tract. Full Scripts can be found in the analysis section of the repository. Example below:
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/f9431e5c-ef8f-4aa0-bf42-2d6421d74a19)
+
+
+
+
+
+
+
 
 
 
