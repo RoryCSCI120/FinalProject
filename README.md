@@ -70,6 +70,9 @@ For the actual spatial querying, I utilized the the ST_Intersects function to de
 ![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/f9431e5c-ef8f-4aa0-bf42-2d6421d74a19)
 
 
+#### Results
+
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/3ff95fc4-1f5c-4bba-ae0c-a5e1098c70d6)
 
 
 
