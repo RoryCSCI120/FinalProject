@@ -71,8 +71,22 @@ For the actual spatial querying, I utilized the the ST_Intersects function to de
 
 
 #### Results
-
+Unfortunately, this was a fairly limited study with not all layers being used in the end. The primary achievment was the the analysis relating to correlation between the non-English speaking population of Worcester, heat, NDVI and historic redlining. THe main takeaways from the analysis is that there is much weaker correlation between non-English speaking populations, historic redlining and urban heat and NDVI, though the latter two comparisions should be taken with a very large grain of salt. For Historic Redliing Districts, while the areas formerly zoned as red have some of the highest percentages of non_english speakers (22.12% and 15%), theses are not the highest average percentages. The highest average percentage (23.64%) can be found in the downtown area of Worcester, which was classified as "Business" rather than being evaluated as a color like the other zones. The highest average percetage in one of the color assigned zones belongs to a Zone 7 (22.2%), which was deemed blue, or "Still Desirable." On the other end of the spectrum, the lowest average percentage (9.65%) is found in a yellow (Definetly Declining) zone. The only green (Best) zone comes in the middle of the bunch with a non-English speaking population of 13.
+Figure 4: Side by side of average percentage of people with low English ability in Historic Redling Zones and Historic Redlining Zones with apropriate colors.
 ![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/3ff95fc4-1f5c-4bba-ae0c-a5e1098c70d6)
+
+The temperature also appears to have a very weak correlation. Though many of the highest percentages of non-English speakers appear in the center of Worcester alongside some of the highest temepratures, I would presumer this is likily more to do with the density of buildings. This could be justified by the fact that in the NDVI maps the reverse is seen with NDVI beign strongest as density of buildings presumably goes down.
+Figure 5: Side by side of average temperature in mid January, 2024 in Worcester census tracts and percentage of people with low English ability per census tract in Worcester.
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/4455c97e-502a-475e-ae73-8fc551434782)
+
+Figure 6: Side by side of average temperature in mid July, 2024 in Worcester census tracts and percentage of people with low English ability per census tract in Worcester.
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/2664bbc7-4110-4ebe-a03a-db40b5949e43)
+
+Figure 7: Side by side of average NDVI in mid January, 2024 in Worcester census tracts and percentage of people with low English ability per census tract in Worcester.
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/2a3f1aae-e5ec-4832-94a0-aae166fc22be)
+
+Figure 8: Side by side of average NDVI in mid July, 2024 in Worcester census tracts and percentage of people with low English ability per census tract in Worcester.
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/ab35bad0-b359-45e7-a50d-777670f7afc5)
 
 
 
