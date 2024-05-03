@@ -13,14 +13,13 @@ This study utilizes a combination of vector and raster data for the city of Worc
 #### Sources:
 Vector Layers:
 
-![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/3530aecf-afd3-4ac9-9bbd-f4fe0c5d69b5)
-
+https://coronavirus-resources.esri.com/datasets/esri::county-28/explore?location=37.172537%2C-119.918825%2C4.00 - ACS Median Household Income per census tract
 ESRI Living Atlas - ACS Specific Languages and population per census tract
 
 [MA Cities](https://www.mass.gov/info-details/massgis-data-2020-us-census-towns) - Massachusetts Towns
 
 Figure 1 - Census Tracts within Worcester city boundary, with background of Winter surface temperature
-![tracts](https://github.com/RoryCSCI120/FinalProject/assets/131007848/bb5a5fa1-55ce-453b-a775-c2f9a4e5d56e)
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/8364a268-b970-49a7-87be-fd9c4dbbd7dc)
 
 https://gisdata.worcesterma.gov/datasets/47dc76d64f18496b9dd1e3b11968af7f_1/explore - Lakes, Ponds, Rivers for the city of Worcester
 
@@ -29,12 +28,12 @@ https://gisdata.worcesterma.gov/search?groupIds=8ba79ce2db2749dfac73159337878bad
 https://gisdata.worcesterma.gov/datasets/4aaa3476e6114050b2d210b6e03baef3_2/explore?location=42.275466%2C-71.808469%2C12.10 - Buildings in Worcester
 
 Figure 2 - Bodies of Water, open spaces and buildings within the city boundaries of Worcester, with background of Winter surface temperature
-![layers](https://github.com/RoryCSCI120/FinalProject/assets/131007848/e31d158e-7fc0-476e-9ed8-84a9ee6a5303)
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/bb8c5a3a-18bb-4da0-9940-c247787f8149)
 
 https://gisdata.worcesterma.gov/datasets/48173f9ea9344b628f61a6a8cfc670c1_2/explore?location=42.265276%2C-71.788987%2C13.00 - Historic Redlining Data for the city of Worcester
 
 Figure 3 - Worcester Historic Redlining Districts with background of January 2023 surface temperature
-![red](https://github.com/RoryCSCI120/FinalProject/assets/131007848/2135ac69-2821-4bde-bef0-a69622f71f91)
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/ff865cb8-a1a7-44c4-8534-e0ef1c97322b)
 
 Raster Layers:
 
