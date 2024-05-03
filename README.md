@@ -13,7 +13,7 @@ This study utilizes a combination of vector and raster data for the city of Worc
 #### Sources:
 Vector Layers:
 
-[Demographics](https://coronavirus-resources.esri.com/datasets/esri::county-28/explore?location=33.307776%2C-119.918825%2C4.00) - - Median Household Income Census Tract Data polygons census tracts
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/3530aecf-afd3-4ac9-9bbd-f4fe0c5d69b5)
 
 ESRI Living Atlas - ACS Specific Languages and population per census tract
 
