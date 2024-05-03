@@ -4,13 +4,21 @@ Rory Dickinson
 
 ### Introduction
 Urban Heat Islands are a growing issue in many cities across the United States. In most studies, factors such as income and race have been used to examine inequalities in exposure to such harmful envrionemntal factors like heat. Many studies also often pair these sorts of factors with historical data related to the practice of redlining, where certain neighborhoods were deemed poor for investment. Neighborhoods which were once redlined tend to also be the neighborhoods today with the highest temperatures. 
-The main objectives of this project are to: determine whether there is a correlation between concentrations of populations with low English ability and the factors which contribute to the urban heat island effect.
+The main objectives of this project is to compare the distribution of people with low english ability in Worcester in comparison to factors relateing to urban heat islands.
 
 ### Data
 
 This study utilizes a combination of vector and raster data for the city of Worcester, Massachusetts.
+The raster layers were of specific poitns in time. 
+Temperature: January 18th, 2024 and July 21, 2023
+NDVI: January 22, 2024 and July, 22 2024
 
 #### Sources:
+
+ChatGPT Scripts that helped along the way:
+https://chat.openai.com/share/061939b7-5023-46d3-ac6f-4bb6980c61ea
+https://chat.openai.com/share/5305d641-3418-4d53-be4c-41ed56b118b2
+
 Vector Layers:
 
 https://coronavirus-resources.esri.com/datasets/esri::county-28/explore?location=37.172537%2C-119.918825%2C4.00 - ACS Median Household Income per census tract
@@ -66,12 +74,16 @@ To load in the data to a database, the following sql scripts must be run in post
 
 "C:\Program Files\PostgreSQL\16\bin\shp2pgsql.exe" -s 4326 -I C:\Users\User\Desktop\Final_Project\Open_Spaces\Open_Spaces.shp public.parks > parks.sql
 
-For the actual spatial querying, I utilized the the ST_Intersects function to determine the average temperatures and NDVI values in each census tract. Full Scripts can be found in the analysis section of the repository. Example below:
+For spatial querying, I utilized the the ST_Intersects function to determine the average temperatures and NDVI values in each census tract. Full Scripts can be found in the analysis section of the repository. Example below:
 ![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/f9431e5c-ef8f-4aa0-bf42-2d6421d74a19)
 
+I utilized the Left Join to then calculate the average percentage of non-English speakers in each of the historic redlining zones.As can be seen below:
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/6c563287-ee5a-469c-a4b4-282381cf88e1)
+
+For much of the 3 main queries used in this project, I utilized Open AI's ChatGPT as a guide and wall to bounce questions off of. I also utilized previous assignments as well as forums on the GIS Stack Exchange and Reddit. To actually visualize the newly queried data, I downloaded the CSV's that resulted from each query and brought them into QGIS through the Add Deliminated Text Layer tab. I had trouble creating a polygon vector layer with the Redlining zones CSV unfortunatley and because there were only 16 rows in the, I opted to just manually put the values into a duplicate of the previously existing Historic Redlining Vector Layer which I had initially downloaded.
 
 #### Results
-Unfortunately, this was a fairly limited study with not all layers being used in the end. The primary achievment was the the analysis relating to correlation between the non-English speaking population of Worcester, heat, NDVI and historic redlining. THe main takeaways from the analysis is that there is much weaker correlation between non-English speaking populations, historic redlining and urban heat and NDVI, though the latter two comparisions should be taken with a very large grain of salt. For Historic Redliing Districts, while the areas formerly zoned as red have some of the highest percentages of non_english speakers (22.12% and 15%), theses are not the highest average percentages. The highest average percentage (23.64%) can be found in the downtown area of Worcester, which was classified as "Business" rather than being evaluated as a color like the other zones. The highest average percetage in one of the color assigned zones belongs to a Zone 7 (22.2%), which was deemed blue, or "Still Desirable." On the other end of the spectrum, the lowest average percentage (9.65%) is found in a yellow (Definetly Declining) zone. The only green (Best) zone comes in the middle of the bunch with a non-English speaking population of 13.
+Unfortunately, this was a fairly limited study with not all layers being used in the end. The primary achievment was the the analysis relating to correlation between the non-English speaking population of Worcester, heat, NDVI and historic redlining. The main takeaways from the analysis is that there is much weaker correlation between non-English speaking populations, historic redlining and urban heat and NDVI, though the latter two comparisions should be taken with a very large grain of salt. For Historic Redliing Districts, while the areas formerly zoned as red have some of the highest percentages of non_english speakers (22.12% and 15%), theses are not the highest average percentages. The highest average percentage (23.64%) can be found in the downtown area of Worcester, which was classified as "Business" rather than being evaluated as a color like the other zones. The highest average percetage in one of the color assigned zones belongs to a Zone 7 (22.2%), which was deemed blue, or "Still Desirable." On the other end of the spectrum, the lowest average percentage (9.65%) is found in a yellow (Definetly Declining) zone. The only green (Best) zone comes in the middle of the bunch with a non-English speaking population of 13.
 Figure 4: Side by side of average percentage of people with low English ability in Historic Redling Zones and Historic Redlining Zones with apropriate colors.
 ![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/3ff95fc4-1f5c-4bba-ae0c-a5e1098c70d6)
 
@@ -87,6 +99,16 @@ Figure 7: Side by side of average NDVI in mid January, 2024 in Worcester census 
 
 Figure 8: Side by side of average NDVI in mid July, 2024 in Worcester census tracts and percentage of people with low English ability per census tract in Worcester.
 ![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/ab35bad0-b359-45e7-a50d-777670f7afc5)
+
+Figure 9: Scatter plots of surface temperatures in each month in comparison to distribution of people with low English ability
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/f568c6fe-fd42-48f2-80b5-47ca1388c452)
+
+Figure 10: Scatter plots of NDVI in each month in comparison to distribution of people with low English ability
+![image](https://github.com/RoryCSCI120/FinalProject/assets/131007848/5939b528-e70e-4d0d-86b6-9f4491f1eab8)
+
+#### Future Work
+If continued the project should examin the relationship between the density of buildings within census tracts and percentage of non-English speakers within said tracts, as well as how percentage of non-English speakers correlates to tracts contain water features and/or greenspaces, as these factors have been known to increase heat in the case of building density and decrease temepratures in the case of water features and greenspaces. In the end this was mostly an excercise in applying SQL spatial queries to a dataset which I procured and to that regard, I believe I was successful, even if only to a small and simple degree.
+
 
 
 
