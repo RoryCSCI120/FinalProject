@@ -52,7 +52,7 @@ For the languages data by census blocks, the necessary columns kept are as follo
 
 The geom column was also kept. The columns with strings of characters as names are, population of census block, population with low English ability, and percent of said population with low English ability. 
 
-The raster layers when brought into QGIS, were clipped by a mask layer. The mask used was the Worcester city boundary polygon. This was done to contain the study area firther and make the rather large layers more manageable.
+The raster layers when brought into QGIS, were clipped by a mask layer. The mask used was the Worcester city boundary polygon. This was done to contain the study area further and make the rather large layers more manageable.
 
 Data Normalization
 
